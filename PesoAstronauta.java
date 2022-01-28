@@ -1,10 +1,6 @@
 package com.mycompany.exev1raulrecolons;
 
-/**
- *
- * @author rarec
- * version: 1.0
- */
+
 
 import java.util.Scanner;
 
@@ -28,7 +24,7 @@ public class PesoAstronauta {
             System.out.println("Introduce la masa del astronauta en kilogramos: ");
             masa = sc.nextInt();
             System.out.println("Escribe el nombre de el planeta en el que quieres hacer el calculo tal cual los ves en la siguiente lista");
-            System.out.println("mercurio, venus, marte, jupiter, saturno");
+            System.out.println("mercurio + "\n" + venus + "\n" + marte + "\n" + jupiter + "\n" + saturno");
             
             planeta = sc.next();
             
